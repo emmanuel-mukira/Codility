@@ -7,6 +7,7 @@
 
 def select_keys(hash, keys)
     # Your code here
+    hash.select{|k,v| keys.include?(k)}
 end
 
 # Example usage
